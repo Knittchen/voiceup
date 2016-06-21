@@ -15,7 +15,7 @@ public class WebController {
 	public  ModelAndView index(HttpServletRequest request, HttpServletResponse response){
 		ModelAndView index = new ModelAndView();
 		
-		index.setViewName("/");
+		index.setViewName("index");
 		return index;
 	}
 
